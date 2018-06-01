@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Crashlytics (3.10.0):
+    - Fabric (~> 1.7.3)
+  - Fabric (1.7.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - Crashlytics
+  - Fabric
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Crashlytics: a989ef242b66605577a425733797f810bd2725eb
+  Fabric: bb495bb9a7a7677c6d03a1f8b83d95bc49b47e41
+
+PODFILE CHECKSUM: 083c87dd66342ce934654373a74d1b1304de668b
+
+COCOAPODS: 1.4.0

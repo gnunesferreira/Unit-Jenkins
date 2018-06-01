@@ -178,6 +178,7 @@
 				D8B7A98420BF380E00E08A87 /* Resources */,
 				41E25D8DE73C5DE9AA11B278 /* [CP] Embed Pods Frameworks */,
 				0F0F3C0C3F7EBEED447F08E0 /* [CP] Copy Pods Resources */,
+				D8E744DE20C1D82B00146DA3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -433,6 +434,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnitJenkinsTests/Pods-UnitJenkinsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D8E744DE20C1D82B00146DA3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 54a1ba6f013c40878f517e458e82ad72979471f4 48a3c80b74cee18cb637609abd839ec9e91edd7d6ad4dfc3c156ca914f7715b8";
+		};
 		F64447428771B16FFAEBB9CD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -631,6 +645,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZZBK762V5L;
 				INFOPLIST_FILE = UnitJenkins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
